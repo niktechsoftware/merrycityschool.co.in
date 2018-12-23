@@ -1,0 +1,104 @@
+.menu {
+	height: 27px;
+	position: relative;
+	width: 90%;
+	z-index: 100;
+	padding: 7px 0 0 10px;
+}
+* html .menu {
+	width: 1000px;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu ul ul {
+	width: 199px;
+}
+.menu li {
+	float: left;
+	position: relative;
+	background: url(../images/mainNavDiv.png) no-repeat 0px 3px;
+}
+.menu li li {
+	border-top: 1px solid #395f29;
+	width: 200px;
+}
+.menu li li a {
+	font-weight: normal;
+	padding: 3px 10px 4px 25px;
+	background: url(../images/ddMenuBullet.png) #41712e 10px 8px no-repeat;
+	line-height: 18px;
+}
+.menu li li a:active {
+	font-weight: normal;
+	padding: 3px 10px 4px 25px;
+	background: url(../images/ddMenuBullet.png) #41712e 10px 8px no-repeat;
+	line-height: 18px;
+}
+.menu li li a:hover {
+	padding: 3px 10px 4px 25px;
+	background: url(../images/ddMenuBullet.png) #f1ab17 10px 8px no-repeat;
+	line-height: 18px;
+}
+.menu a {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: 13px;
+	height: 29px;
+	line-height: 28px;
+	text-decoration: none;
+	/* width: 138px;*/
+	padding: 0 16px;
+}
+.menu li a.selected {
+	background: #3e6f2d;
+	border: 1px solid #305d20;
+}
+.menu ul ul {
+	height: 0;
+	left: 0;
+	position: absolute;
+	visibility: hidden;
+	width: 199px;
+}
+* html .menu ul ul {
+	top: 31px;
+	border: 1px solid #f1ab17;
+}
+.menu ul ul ul {
+	left: 199px;
+	top: -2px;
+	width: 189px;
+}
+.menu ul ul a, .menu ul ul a:hover {
+	border-width: 0 1px 1px;
+	color: #ffffff;
+	height: auto;
+}
+* html .menu ul ul a {
+	width: 190px;
+}
+.menu a:hover, .menu ul ul li a:hover {
+	background: url(../images/ddMenuBullet.png) #709f5e 10px 8px no-repeat;
+}
+.menu *:hover > a, .menu ul ul *:hover > a {
+	background: none repeat scroll 0 0 #41712e;
+	color: #ffffff;
+}
+.menu ul li:hover ul, .menu ul a:hover ul {
+	visibility: visible;
+}
+.menu ul *:hover ul ul {
+	visibility: hidden;
+}
+.menu ul *:hover ul *:hover ul {
+	visibility: visible;
+	background: url(../images/ddMenuBullet.png) #709f5e 10px 8px no-repeat;
+}

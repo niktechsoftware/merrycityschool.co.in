@@ -1,0 +1,70 @@
+<html>
+
+<!-- Mirrored from www.srmps.ac.in/Presentation/index.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 22 Feb 2017 03:41:10 GMT -->
+<head>
+<TITLE>SRMPS Photo Gallery</TITLE>
+<META name="generator" content="Adobe Photoshop(R) CS Web Photo Gallery">
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="images/galleryStyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: #FFF;
+}
+</style>
+<script>
+var windowWidth, windowHeight;
+var thumbHeight;
+var agent = navigator.userAgent.toLowerCase();
+var mac = (agent.indexOf("mac")!=-1);
+var ie = ((agent.indexOf("msie") != -1)&& (agent.indexOf('opera')==-1));
+
+function setHeight(thumbFrameHeight){
+	if (!(mac && ie)){
+		windowSize();
+		thumbHeight = thumbFrameHeight;
+
+		document.getElementById("BottomFrame1").style.height=(thumbHeight+20) + "px";
+		document.getElementById("TopFrame1").style.height=((windowHeight-thumbHeight) * .85) + "px";
+		document.getElementById("TopFrame1").style.width=(windowWidth*.9) + "px";
+		document.getElementById("BottomFrame1").style.width=(windowWidth*.9) + "px";
+	}
+}
+
+function resizeThis(){
+	setHeight(thumbHeight);
+}
+
+function windowSize() {
+  var myWidth = 0, myHeight = 0;
+  if( typeof( window.innerWidth ) == 'number' ) {
+    //Non-IE
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+  } else if( document.documentElement &&
+      ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    //IE 6+ in 'standards compliant mode'
+    myWidth = document.documentElement.clientWidth;
+    myHeight = document.documentElement.clientHeight;
+  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    //IE 4 compatible
+    myWidth = document.body.clientWidth;
+    myHeight = document.body.clientHeight;
+
+  }
+  windowWidth = myWidth;
+  windowHeight = myHeight;
+}
+
+</script>
+</head>
+<body bgcolor="#FFFFFF" marginheight=0 marginwidth=0 leftmargin=0 topmargin=0>
+<table width="700" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td><iframe style="width:120px;height:410px" id="BottomFrame1" name="BottomFrame1" frameborder="0" src="ThumbnailFrame.html"> Your browser does not support iframes. </iframe></td>
+    <td><iframe style="width:630px;height:445px; background-color:#FFFFFF" id="TopFrame1" name="TopFrame1" frameborder="0" src="pages/10123.html" allowtransparency="true"> Your browser does not support iframes. </iframe></td>
+  </tr>
+</table>
+</body>
+
+<!-- Mirrored from www.srmps.ac.in/Presentation/index.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 22 Feb 2017 03:41:10 GMT -->
+</html>

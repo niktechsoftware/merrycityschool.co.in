@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700|Yanone+Kaffeesatz);
+/*===== nav style ======*/
+.leftNav select {
+	display: none; /* this is just for the mobile display */
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+/* nav menu ul & select */
+.leftNav ul {
+	display: none;
+}
+.leftNav {
+	background: #fff;
+	border-radius: 0;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0px auto;
+	border: 1px solid #731e1e;
+}
+.leftNav:after {
+	/*background: url(../images/down_arrow.png) 0 5px no-repeat;*/
+	content: "\f078";
+	font-family: FontAwesome;
+	font-size: 14px;
+	color: #004D86;
+	position: absolute;
+	right: 10px;
+	top: 11px;
+	z-index: 1;
+}
+.leftNav select {
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	box-sizing: border-box;
+	color: #595959;
+	margin: auto;
+	padding: 0px 28px 0px 6px; 
+	padding: 11px 28px 7px 6px\9;
+	position: relative;
+	line-height: 24px;
+	font-size: 15px;
+	background-color: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0px;
+	z-index: 2;
+}
+.leftNav option {
+	background: #eeeeee;
+	border-top: 1px solid #d0d0d0;
+	padding: 8px 10px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.leftNav select {padding: 8px 28px 8px 10px;}	
+    .leftNav select option {background: #eee; border-top: 1px solid #d0d0d0; padding: 20px 10px; margin:10px 0px; cursor:pointer;}
+}
+}
