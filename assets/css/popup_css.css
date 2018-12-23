@@ -1,0 +1,55 @@
+.modelBox {
+	padding: 0px;
+	width: 775px;
+	height: auto;
+	position: fixed;
+	display: none;
+}
+.closeDiv {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+ .modelBox_mid {
+	background: #fff;
+	padding:10px 0px 0px; float:left; width:770px; border-radius: 10px 10px 10px 10px; border:6px solid #BEBEBE;
+}
+ .img_watermark {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.60;
+	background: #000;
+	padding: 15px;
+	font-weight: bold; 
+}
+.popupcon h2 {
+    border-bottom: 1px dotted #DBDBDB;
+    color: #333;
+   font-family: 'MyriadProBold';
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    padding: 0 0 5px 15px;
+	margin-bottom:10px;
+}
+
+.popupgridcon { 
+    overflow-x: hidden;
+    overflow-y: auto;  
+	margin: 0 0 10px; padding: 0px 0px 0px 0px;
+    width:100%;
+}
+.popupgridcon h3{
+    color: #666666;
+    font-family: 'MyriadProBold';
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    padding: 0 0 5px;
+}
+ .lb_overlay.js_lb_overlay {
+    opacity: 0.6 !important;
+}

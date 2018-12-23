@@ -1,0 +1,282 @@
+﻿@media only screen and (max-width:1023px) {
+	/*Top Navbar*/
+	.navigationPanel {width: 98%;}
+	.menu a{padding: 0 9px;}
+	
+	/*Header*/
+	.wrapper_header {width: 96%;}
+	.header {width: 100%; padding: 10px 0;}
+	.logopanel {width: 50%;}
+	img.logo {width:90px;}
+	.logopanel img {max-width: 66%;}
+	.headerRtPane {width: auto;}
+	.contact-info {width: 100%; font-size: 16px;}
+		
+	/*banner*/
+	#slider {height: 337px;}
+	#slider .shell {height: 337px;}
+	.slider-right {height: 337px;}
+	.slider-content { height: 337px;}
+	.slider-content ul li, .jcarousel-clip { height: 337px;}
+	
+	.wrapper {width: 96%;}
+	.sliderPanel {width: 100%;}
+	.jcarousel-clip {width: 100%;}
+	.slidetxtPanel {left: 40px; width: 300px;}
+	.appDownLoad {right: 40px !important;}
+			
+	/*Information */
+	.facilitiesPane {width: 100%;}	
+	.facilityTitle {padding: 20px 0 0 10px;}
+	.facilityCategory {}
+	
+	/*body content*/	
+	.mid_prop_back {width: auto;}
+	.popular_box {width: 215px !important;}	
+	.rightPane_home {width: 245px;}
+	.rightPane_home img {max-width:100%;}
+	.whtasinc ul {padding: 5px 10px 0 10px;}
+	.fullfeature {padding: 0 0px 5px 0;}
+	
+	/*Footer*/
+	.salientPane {height: 90px;}
+	.tcdPane {width: 96%;}
+	.workingIcon img{max-width: 90%;}
+	.footerPanel {width: 100%;}
+	.fooRw2 {width: 100%;}
+	.frw2Lt {width: 80%;}
+	ul.botNav {width: auto;}
+	.socialIcon {width: 20%;}
+}
+@media only screen and (max-width:980px) {
+	.lrng_exp h3 {font-size: 15px;}
+	.menu_desktop{display:none;}
+	.menu_mob{display:block;}
+}
+@media only screen and (max-width:979px) {
+	.newsGallery table tr td {float:left;}
+	.newsypics {margin: 0 0 10px 6px;padding: 7px;}
+	.scholarshiptitle {font-size: 14px;}
+}
+@media only screen and (max-width:800px) {	
+	
+	.lrnexpList ul li {padding: 4px 0 5px 15px;}
+	.aluReg {width: 100%;}
+	.cssfpane {width: 100%;}
+	.cssfLabel {width: 100%;}
+	.cssfinput {width: 100%;}
+	.infoPhoto {width: 34%;}
+	.alInp {width: 58%;}
+	
+	/*Information */
+	.facilitiesPane {width: 100%;}	
+	.facilityTitle {padding: 10px; width:100%; text-align:center;}
+	.facilitiesMid {height: auto;}
+	.facilityCategory {width:100%}
+	.facilityContBlock { width: 16.5%; float: left; white-space: nowrap; padding: 0 12px; box-sizing: border-box;}
+	
+	/*body content*/
+	.announcement {width: 48%; min-height: 375px;}
+	.announcement marquee{height:267px !important;}
+	.lrng_exp {width: 48%; float:right; min-height: 375px;}
+	/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.lrng_exp {width: 48%; float:right; min-height: 375px;}
+	}*/
+	.admform {width: 48%; margin-top: 20px; text-align: center; margin-left: 0; min-height: 380px; float: left; clear: both;}
+	.homeFeedbackFrom {width: 48%; float:right; min-height: 390px; border-radius: 10px; clear:none;}
+	.homeFeedbackFrom input[type="text"], .homeFeedbackFrom textarea {margin-bottom: 15px;}
+	.homeFeedbackFrom textarea {height: 60px;}
+	.newsHpane {width: 48%; margin-top: 20px; margin-left: 0; min-height: 302px; border-radius:10px;     clear: both;}
+	.whtasinc {float: right;width: 48%; min-height: 302px;}
+	
+	/*Footer*/
+	.salientPane {height: auto;}
+	.tcdPane {width: 96%;}
+	.workingIcon {float: none; text-align: center;}
+	.workingPane .scholarshiptitle{padding: 12px 0px;}
+	.scholarshiptitle {float: none;text-align: center; padding: 15px 0;}
+	.cbseBox {height: auto; padding: 0;}
+	.downldFrm { padding: 0;}
+}
+/*=========Mobile view===================*/
+@media only screen and (max-width:767px) {
+	/*Header*/
+	.wrapper_header {width: 96%;}
+	.header {width: 100%; padding: 10px 0;}
+	.logopanel img {max-width: 64%;}
+	.headerRtPane {width: auto;}
+	.contact-info {width: 100%; font-size: 16px;}
+		
+	/*banner*/
+	.sliderPanel {width: 100%;}
+	.jcarousel-clip {width: 100%;}
+	.slidetxtPanel {left: 10px; width: 267px;}
+
+	.appDownLoad {right: 10px !important;}
+	.homeFeedbackFrom {min-height: 392px;}
+	.slidetxtPanel {bottom: 15px;}
+	.slidetxtPanel {padding: 20px 20px 65px;}
+
+	#slider {height: 270px;}
+	#slider .shell {height: 270px;}
+	.slider-right {height: 270px;}
+	.slider-content { height: 270px;}
+	.slider-content ul li, .jcarousel-clip { height: 270px;}
+					
+	/*body content*/
+	.mid_prop_back {width: auto;}
+	.popular_box {width: 215px !important;}	
+	.rightPane_home {width: 245px;}
+	.rightPane_home img {max-width:100%;}
+	.whtasinc ul {padding: 5px 10px 0 10px;}
+	.fullfeature {padding: 0 0px 5px 0;}
+	.rightPane_mid {width: 98%;}
+	.inHeadimg > img {border-radius: 10px 10px 0 0;}
+	
+	/*Popup*/
+	.pop_mob {position: relative !important;width: 100%;margin: auto;left: 0 !important;right: 0 !important;}
+	
+	/*Footer*/
+	.footerPanel {width: 100%;}
+	.fooRw2 {width: 100%;}
+	.frw2Lt {width: 80%;}
+	ul.botNav {width: auto;}
+	.socialIcon {width: 20%;}
+	
+	/*inner page*/
+	.contentPaneLt {width: 100%; border-radius: 10px 10px 0 0; margin-top: 130px;}
+	.contentPaneLt.mt330 {margin-top: 330px;}
+	.rightPane {float: left;width: 98%; position: absolute; padding: 25px 15px;}
+	.intContent {padding: 15px; min-height: 200px;}
+	.breadcrumb {padding: 15px 0 5px 15px;}
+	.inHeadimg > h3 {padding: 15px;}
+	.intContent ul {width: 100%;}
+	.cbseBox {height:auto; padding: 0;}
+}
+@media only screen and (max-width:667px) {	
+	/*body content*/
+	.homeFeedbackFrom textarea {height: 50px;}
+	.homeFeedbackFrom {min-height: 380px;}
+	
+	ul.botNav li a {background-position:0 3px;}
+}
+@media only screen and (max-width:640px) {	
+	/*Header*/
+	.wrapper_header {width: 96%;}
+	.header {width: 100%; padding: 10px 0;}
+	img.logo {width:85px;}
+	.headerRtPane {width: 50%; text-align:right;}
+	.contact-info {width: 100%; font-size: 16px;}
+		
+	/*banner*/
+	.wrapper {width: 96%;}
+	.sliderPanel {width: 100%;}
+	.jcarousel-clip {width: 100%;}
+	.slidetxtPanel {left: 2%; width: 96%; box-sizing: border-box; padding: 20px 15px 90px;}
+	.slidertxtarea p {font-size:14px; padding: 0px;}
+	.appDownLoad {right: 0 !important; left: 0 !important; bottom: 37px; text-align: center; width: 100%;}
+	.appDownLoad img{max-width:130px;}
+	.slider-nav {bottom: 85px; left: 30px; right: 0 !important; left: 0 !important; text-align:center;}
+	.slider-nav ul li {float: none; display: inline-block;}			
+	
+	/*body content*/
+	.mid_prop_back {width: auto;}
+	.popular_box {width: 215px !important;}	
+	.rightPane_home {width: 245px;}
+	.rightPane_home img {max-width:100%;}
+	.whtasinc ul {padding: 5px 10px 0 10px;}
+	.fullfeature {padding: 0 0px 5px 0;}	
+	.admform {min-height: 358px;}
+	.homeFeedbackFrom {min-height: 357px;}
+	.homeFeedbackFrom input[type="text"], .homeFeedbackFrom textarea {margin-bottom: 8px;}
+	
+	/*Footer*/	
+	footer {background:#fff;padding-top:0px; border-top:solid 4px #a1303d;}
+	.footCol {width: 100%;}
+	.footCol:nth-child(2) {width: 100%;}
+	.footCol:nth-child(3) {width: 100%;}
+	ul.fooNavList li {display: inline-block; padding: 0 10px 0px 0px; margin: 4px 3px; background: url(../images/navDivBlack.png) no-repeat right;}
+	ul.fooNavList li:last-child {border-right: none;}
+	ul.fooNavList li a {line-height: 12px;}
+	.footCol h3 {text-transform: uppercase;font-size: 15px;margin: 5px 0;}
+	ul.fooNavList {background: #ededed; margin-bottom: 8px; padding: 8px;box-sizing: border-box;}
+	ul.fooNavList li a {color: #333;}	
+	.footerPanel {width: 100%;}
+	.fooRw2 {width: 100%; background: #ededed; padding: 10px; box-sizing: border-box; text-align: center;}
+	.frw2Lt {width: 100%;}
+	ul.botNav {width: 100%;}
+	ul.botNav li {float: none;}
+	.copyright {width: 100%; margin: 10px 0;}
+	.socialIcon {width: 100%; text-align: center; margin-top: 15px;}
+	.socialIcon img {margin-right: 10px;}
+}
+@media only screen and (max-width:639px) {
+	img.logo {width:75px;}
+	.logopanel img {max-width: 65%;}
+	.logopanel {width: 100%; text-align:center;}
+	.headerRtPane {width: 100%; text-align:center; margin-top: 20px;}
+	.contact-info {width: 100%; font-size: 16px;}
+	
+	/*Information */
+	.facilityContBlock {width: 33%; margin-bottom: 15px;}
+	.facilitiesMid {width: 100%; margin: 0;}	
+	
+	/*body content*/
+	.homeFeedbackFrom textarea {height: 40px;}
+	.admform {min-height: 296px;}
+	.homeFeedbackFrom {min-height: 355px;}
+	.scholarshiptitle {font-size: 14px;}
+	.imgGallery td img {max-height: 60px;}	
+	
+}
+@media only screen and (max-width:600px) {
+	.homeFeedbackFrom {min-height: 340px;}
+	
+}
+@media only screen and (max-width:568px) {
+	/*body content*/
+	.admform {min-height: 296px;}
+	.homeFeedbackFrom {min-height: 322px;}
+	.scholarshiptitle {font-size: 12px;}
+}
+@media only screen and (max-width:480px) {	
+	.infoPhoto {width: 100%;}
+	.alInp {width: 100%;}	
+	
+	/*body content*/	
+	.homeFeedbackFrom {width: 100%; margin: 20px 0; min-height: auto;}
+	.newsHpane {width: 100%; margin: 0px 0 20px 0; border-radius: 10px;}
+	.whtasinc {width: 100%; margin: 0; min-height: auto;}
+	.announcement {width: 100%; margin: 0;}
+	.lrng_exp {width: 100%; margin: 20px 0; box-sizing: border-box;}
+	.admform{width: 100%; margin: 0; text-align: center;}
+	.lrnexpList ul li {padding: 7px 0 7px 22px;}
+	
+	.jobDescCont {width: 100%;}
+	.jdcolright  {width: 100%; float:left; text-align:left; border-top: solid 1px #e5e5e5; margin: 16px 0;}
+	.postdt {text-align: left;float: left;}
+	.jobselbtn {padding: 2% 0 0 0; text-align: left; float: left;}
+	
+	/*footer*/
+	.tcdPane {width: 96%;}
+	.salientPane {height: auto; box-sizing: border-box;}
+	.scholarshiptitle {font-size: 14px;float: left;text-align: left; padding: 20px 0px !important;}
+	.workingPane { width: 100%; float: left; text-align: left; border-bottom: solid 1px #dadada; box-sizing: border-box;padding: 10px 0;}
+	.cbseBox {width: 100%; padding: 5px 0; border-left: none; border-bottom: solid 1px #dadada; box-sizing: border-box; border-right: 0;}
+	.downldFrm {width: 100%; padding: 10px 0; border-left: none; box-sizing: border-box;}
+	.workingIcon {float: left;text-align: left;}
+	
+}
+@media only screen and (max-width:416px) {
+	.onlineFrm .row .label {width: 100%;}
+	.onlineFrm .row .field {width: 96%;}
+	.intContent .intContentfaculty img {max-height: 150px;}
+	.intContent #ctl00_ContentPlaceHolder1_visitText img {max-height: 150px;}
+	.facultyListPane {width: 100% !important; text-align:center; margin:0 0 2% 0;}
+	.facultyListPane img{float:none;}
+	.newsypics {width: 128px; margin: 0 0 0px 6px;}
+	.gallerypic {width: 100%; min-height: 88px;}
+	.anVideo ul li{ width: 100%;}
+}
+@media only screen and (max-width:320px) {
+}
