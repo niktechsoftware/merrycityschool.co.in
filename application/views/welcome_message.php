@@ -207,7 +207,7 @@ $(document).ready(function(){
     <div class="contentPane_home">
         <div id="ctl00_ContentPlaceHolder1_divAnnouncements" class="announcement"><h2>Announcement</h2><marquee  behavior='scroll' direction='up'  scrollamount='2' height='313' onMouseOver='this.stop();' OnMouseOut='this.start();'>
           <?php foreach($this->db->get("notice")->result() as $row):?> 
-        <ul><li><span><b><strong><?php echo $row->title;?></strong></b></span><p><span id="ctl00_ContentPlaceHolder1_grdAnnouncements_ctl02_lblgrdDescription"><?php echo $row->notice;?></span></p></li>
+        <ul><li><span><b><strong><?php echo $row->message;?></strong></b></span><p><span id="ctl00_ContentPlaceHolder1_grdAnnouncements_ctl02_lblgrdDescription"><?php echo $row->subject;?></span></p></li>
        
          <?php endforeach;?>
        </li></ul></marquee></div>
