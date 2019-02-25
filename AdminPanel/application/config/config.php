@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost:8080/merrycityschool.co.in/AdminPanel/';
+$config['base_url'] = 'http://merrycityschool.co.in/AdminPanel/';
 
 /*
 |--------------------------------------------------------------------------
